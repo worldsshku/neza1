@@ -47,16 +47,6 @@
       "accountSignatureKey": "rn9pW53alc58k3bw3/g0vxX9JglwSMIKZlEBAOclZ1Y=",
       "accountSignature": "0ZUqms99TA2hpjDKHYQkdN1a1mG6excb6vwO9Gg4xTY4JtlJ2j4bLghlA/cg/4rLUgGOoUwgcCJRW0kflATLAg==",
       "deviceSignature": "7RdguD7jqPplE/syWdEGKwQmJjzfBGcj4Oz1WMnRM+U2WybEbZjIzy7Lk6nQctIUOnL0nIfRIsMlu62euQDHhw=="
-    },
-    "me": {
-      "id": "6283129011845:70@s.whatsapp.net",
-      "verifiedName": ""
-    },
-    "signalIdentities": [
-      {
-        "identifier": {
-          "name": "6283129011845:70@s.whatsapp.net",
-          "deviceId": 0
         },
         "identifierKey": {
           "type": "Buffer",
