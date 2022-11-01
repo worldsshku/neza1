@@ -1,0 +1,30 @@
+{
+  "name": "kotz-api",
+  "version": "1.0.0",
+  "description": "package module kotz api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotzyy/kotz-api.git"
+  },
+  "keywords": [
+    "Module Api"
+  ],
+  "author": "Kotzyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kotzyy/kotz-api/issues"
+  },
+  "homepage": "https://github.com/Kotzyy-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "qs": "^6.10.1"
+  },
+  "directories": {
+    "lib": "plugin"
+  }
+}

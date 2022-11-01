@@ -1,0 +1,267 @@
+<div align="center">
+<img src="https://telegra.ph/file/de121b39dac4c20dbc480.jpg" alt="Kotz" width="170" />
+
+## KOTZ-API'S
+
+</div>
+
+<p align="center">
+<a href="##"><img title="kotz-api" src="https://img.shields.io/static/v1?label=package&message=kotz-api&color=red"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Kotzyy"><img title="Author" src="https://img.shields.io/badge/Kotz-red.svg?style=for-the-badge&logo=github" /></a>
+</p>
+<p align="center">
+  <a href="https://instagram.com/Kotzyy67"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/6281325994066"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /><br>
+</p>
+
+## ```INSTALL And UNINSTALL```
+> npm install kotz-api
+>  
+> npm uninstall kotz-api
+
+
+## ```Instagram```
+``` 
+const zyapi = require('kotz-api');
+const link = 'https://www.instagram.com/p/CVNkCZphLDI/?utm_medium=copy_link'
+
+zyapi.igdl(link)
+    .then(result => {
+     console.log(result)
+});
+```
+## ```Wiki```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'indonesia'
+
+zyapi.wiki(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```MediaFire```
+``` 
+const zyapi = require('kotz-api');
+const link = 'https://www.mediafire.com/file/sazboe4v31szd0m/b%252Atch-bot.zip/file'
+
+zyapi.mediafire(link)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Tik Tok```
+``` 
+const zyapi = require('kotz-api');
+const link = 'https://vt.tiktok.com/ZSeFf3Akc'
+
+zyapi.tiktok(link)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Herodetail```
+``` 
+const zyapi = require('kotz-api');
+const hero = 'Kagura'
+
+zyapi.herodetail(hero)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Herolist```
+``` 
+const zyapi = require('kotz-api');
+
+zyapi.herolist()
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Shoppe```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'Baju'
+const limit = '10'
+
+zyapi.shoppe(judul, limit)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Otaku```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'Naruto'
+
+zyapi.otaku(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Film Search```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'Raya'
+
+zyapi.film(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Covid```
+``` 
+const zyapi = require('kotz-api');
+
+zyapi.covid()
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Twitter```
+``` 
+const zyapi = require('kotz-api');
+const link = 'Link Twitter -_-'
+
+zyapi.twitter(link)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Pinterest```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'Anime'
+
+zyapi.pinterest(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```IG Story```
+``` 
+const zyapi = require('kotz-api');
+const user = 'jeromepolin'
+
+zyapi.igstory(user)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```IG Stalk```
+``` 
+const zyapi = require('kotz-api');
+const user = 'jeromepolin'
+
+zyapi.igstalk(link)
+    .then(result => {
+     console.log(result)
+});
+```
+
+
+## ```YouTube```
+``` 
+const zyapi = require('kotz-api');
+const link = 'https://youtu.be/NuaJynwvdIE'
+
+zyapi.ytdl(link)
+    .then(result => {
+     console.log(result)
+});
+```
+## ```Facebook```
+``` 
+const zyapi = require('kotz-api');
+const link = 'Link Facebook -_-'
+
+zyapi.fbdown(link)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ``` Play Store```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'Wibu'
+
+zyapi.playstore(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Lirik Lagu```
+``` 
+const zyapi = require('kotz-api');
+const judul = ' the nights'
+
+zyapi.lirik(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Tebak Gambar```
+``` 
+const zyapi = require('kotz-api');
+
+zyapi.tebakgambar()
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Komik```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'Naruto'
+
+zyapi.komiku(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Link WhatsApp```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'Wibu'
+
+zyapi.linkwa(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+
+## ```Wattpad```
+``` 
+const zyapi = require('kotz-api');
+const judul = 'hate'
+
+zyapi.wattpad(judul)
+    .then(result => {
+     console.log(result)
+});
+```
+  # Thanks To
+* [`MRHRTZ`](https://github.com/MRHRTZ)
+* [`HEXA`](https://github.com/Hexagonz)
+  
+  
